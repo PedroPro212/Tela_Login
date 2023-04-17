@@ -1,0 +1,8 @@
+CREATE DATABASE tela_login;
+USE tela_login;
+
+CREATE TABLE login(
+	id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    email varchar(50) NOT NULL,
+    senha varchar(50) NOT NULL 
+)
