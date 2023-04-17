@@ -1,0 +1,91 @@
+body{
+    background-color: #027fe9;
+    color: white;
+}
+
+.seu{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top:30rem
+}
+
+.ss{
+    background-color: #027fe9;
+}
+
+.box{
+    background-color: #2e302f;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    text-transform: uppercase;
+    margin-top: 20rem;
+}
+
+form{
+    margin-top: 5vh;
+}
+
+input{
+    margin-bottom: 1vh;
+}
+
+input[type="email"], [type="password"]{
+    width: 30vh;
+    color:black;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #03CFB0;
+}
+    input[type="email"], [type="password"]:focus{
+        outline: none;
+    }
+#password{
+    width: 30vh;
+    color:black;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #03CFB0;
+}
+
+button{
+    color:#2e302f;
+    border: none;
+    width: 13rem;
+    height: 3rem;
+    font-weight: bold;
+    border-radius: 0.8vh;
+}
+    button:focus{
+        outline: none;
+    }
+
+.cadastrar{
+    background-color: rgb(229, 255, 0);
+}
+
+.recuperar{
+    margin-left: 3vh;
+}
+
+input[type="submit"]{
+    width: 28rem;
+    height: 4vh;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top:1vh;
+    background-color: #03CFB0;
+    border:none;
+    border-radius: 1vh;
+}
+input[type="submit"]:hover{
+    background-color: #0289ff;
+    transition: 300ms;
+}
