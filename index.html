@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="/style/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-8 fundo">
+                    <p class="seu">SUA IMAGEM</p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="box text-center">
+                        <h1>Vamos entrar?</h1>
+                        <a href="https://www.instagram.com/pedropro212/" target="_blank"><img src="/imgs/instagram.svg" alt="Instagram"></a>
+                        <a href="https://github.com/PedroPro212" target="_blank"><img src="/imgs/github.svg" alt="GitHub"></a>
+                        <a href="https://programacaodiaria.com.br/" target="_blank"><img src="/imgs/site.svg" alt="Portfólio"></a>
+                        <form method="post" action="php/index.php">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required><br>
+                            
+                            <label for="password">Senha:</label>
+                            <input type="password" id="password" name="password" required><br>
+
+                            <label for="mostrar">Mostrar senha:</label>
+                            <input type="checkbox" id="mostrar" name="mostrar" onclick="Senha()"><br><br>
+                            
+                            <input type="submit" id="logar" name="logar" value="Logar">
+
+                        </form>
+                        <a href="view/cadastrar.html"><button class="cadastrar">
+                            Cadastrar
+                        </button></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/script/index.js"></script>
+
+</body>
+</html>
