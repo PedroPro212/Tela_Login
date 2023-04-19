@@ -8,7 +8,7 @@ Uma tela de login completa, com Frontend e Backend. Tendo as funcionalidades de 
 - HTML5
 - CSS3
 - Bootstrap
-- JavasCript
+- JavaScript
 - PHP
 - Mysql
 
