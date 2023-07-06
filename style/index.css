@@ -3,17 +3,22 @@ body{
     color: white;
 }
 
-.seu{
+.fundo{
     display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 5rem;
-    margin-top:30rem
+    height: 100vh;
 }
 
 .ss{
     background-color: #027fe9;
 }
 
+.logar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .box{
     background-color: #2e302f;
     position: absolute;
